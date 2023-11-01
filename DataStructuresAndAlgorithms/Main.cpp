@@ -46,5 +46,19 @@ int main(int argc, char const* argv[]) {
         std::cout << "All validations passed!" << std::endl;
     }
 
+
+    charList.clear();
+
+    for (int i = 0; i < 1000; i++) {
+        char character = 'A' + (i % 26); // Cycles through 'A' to 'Z'
+        charList.push_back(character);
+    }
+
+    // Display the first 50 values on the screen
+    for (int i = 0; i < 50 && i < charList.size(); i++) {
+        std::cout << charList[i] << " ";
+    }
+    std::cout << std::endl;
+
     return 0;
 }
