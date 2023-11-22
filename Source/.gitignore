@@ -85,6 +85,10 @@ Temporary Items
 *.out
 *.app
 
+/x64/Debug
+
 /DataStructuresAndAlgorithms/x64/Debug
 /.vs/DataStructuresAndAlgorithms
-/x64/Debug
+
+/Test/x64/Debug
+/.vs/Test
